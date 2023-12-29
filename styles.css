@@ -1,0 +1,321 @@
+/* css reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  background-color: var(--dark-purple);
+  height: 700px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.logo_img {
+  left: 70px;
+  height: 25px;
+  position: relative;
+}
+
+.app_acc {
+  font-family: var(--head-font);
+  color: var(--white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  position: absolute;
+  right: 70px;
+}
+
+.mid {}
+
+.dat_tail {
+  font-family: var(--head-font);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  color: var(--white);
+  text-align: center;
+  width: 635px;
+  position: relative;
+  left: 0;
+  top: 14rem;
+}
+
+.t-l-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.phone_img {
+  position: relative;
+  left: 0;
+  top: 23rem;
+  z-index: 1;
+}
+
+.tail_line {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--eucaplyptus);
+}
+
+.spiral_img {
+  position: relative;
+  top: 40%;
+  left: 88.3vw;
+  height: 180px;
+  width: 130px;
+}
+
+
+.lm_bac_head {
+  background-color: var(--eucaplyptus);
+  padding: 16px 32px;
+}
+
+.lm_tex_head {
+  color: var(--dark-purple);
+  text-align: center;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 177.778% */
+  letter-spacing: -0.18px;
+  background-color: var(--eucaplyptus);
+  padding: 16px 32px;
+  display: inline-block;
+  position: relative;
+  top: 19rem;
+}
+
+.motto {
+  display: flex;
+
+}
+
+/* section{
+  margin-top: 201px;
+} */
+
+.circle_numb {
+  color: var(--dark-purple, #24053E);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  /* 166.667% */
+  font-family: var(--head-font);
+}
+
+.circ_numb_back {
+  border-radius: 50%;
+  /* padding: 50px; */
+  border: 1px solid var(--davys-grey);
+  width: 56px;
+  height: 56px;
+
+}
+
+.head_motto {
+  color: var(--dark-purple);
+  text-align: center;
+  font-family: var(--head-font);
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  /* 125% */
+}
+
+.p_motto {
+  color: var(--dark-purple, #24053E);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Body */
+  font-family: var(--body-font);
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 302px;
+  /* 177.778% */
+}
+
+.rob-feature {
+  padding-top: 246px;
+  padding-bottom: 72px;
+}
+
+.rob-sec01 {
+  background-color: #FCF8FF;
+}
+
+.rob-cont {}
+
+.green-purple-bg {
+  position: relative;
+}
+
+.green_man {
+  width: 450px;
+  height: 453px;
+  position: relative;
+  left: 2rem;
+
+}
+
+.attach_cont {
+  width: 679px;
+  height: 400px;
+  background: var(--dark-purple);
+  padding-left: 64px;
+  position: relative;
+  top: 10rem;
+  left: -3rem;
+}
+
+.f_tes {
+  color: var(--white);
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Heading M */
+  font-family: var(--head-font);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 88px; */
+  /* 114.286% */
+  margin-bottom: 24px;
+}
+
+.p-test {
+  color: var(--white);
+  font-feature-settings: 'clig' off, 'liga' off;
+  width: 547px;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+  margin-bottom: 32px;
+}
+
+.l_test {
+  color: var(--dark-purple);
+  /* text-align: center; */
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  /* 177.778% */
+  letter-spacing: -0.18px;
+  padding: 0px 32px;
+}
+
+.l_cont {
+  width: 190px;
+  height: 61px;
+  background: var(--eucaplyptus);
+}
+
+.foot_img {
+  width: 95.762px;
+  height: 24.608px;
+  margin-bottom: 50px;
+}
+
+.faceb_hw {
+  width: 20px;
+  height: 20px;
+}
+
+.twit_hw {
+  width: 20px;
+  height: 16.253px;
+}
+
+.insta_hw {
+  width: 20px;
+  height: 20px;
+}
+
+.bend_rec {
+  position: relative;
+  left: 0;
+  /* top: ; */
+  width: 100%;
+}
+
+/* section 002 */
+.rob-sec02 {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 228px;
+}
+
+.twit_hw {
+  margin: 4px 26px;
+}
+
+/* media queries */
+@media only screen and (max-width: 1010px){
+  .green_man{
+    width: 250px;
+    height: 253px;
+    position: relative;
+    left: 2rem;
+  }
+
+  .attach_cont{
+    width: 579px;
+    height: 300px;
+    background: var(--dark-purple);
+    padding-left: 64px;
+    top: 10rem;
+    left: -3rem;
+    }
+}
+
+
+
+:root {
+  /* primary colors */
+  --dark-purple: #24053E;
+  --eucaplyptus: #44FFA1;
+  --davys-grey: #584D62;
+  ;
+  /* neutral colors */
+  --ghost-white: #FCF8FF;
+  --white: #FFF;
+  ;
+  /* font-family */
+  --head-font: 'Fraunces';
+  --body-font: 'Manrope';
+  ;
+
+}
