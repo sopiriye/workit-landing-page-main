@@ -370,7 +370,7 @@ footer {
   }
 
   header {
-    height: 468px;
+    height: 465px;
   }
 
   .rob-cont-sec02 {
@@ -384,12 +384,13 @@ footer {
   }
 
   .attach_cont {
-    /* width: 418px; */
-    /* height: 351px; */
+    width: 368px;
+    height: 398px;
     /* padding-left: 29px; */
     top: -3rem;
     left: 0rem;
     align-items: center;
+    padding: 0;
   }
 
   .f_tes {
@@ -401,8 +402,21 @@ footer {
   .p-test {
     font-size: 16px;
     width: 272px;
-    margin-bottom: 0;
+    margin-bottom: 27px;
     text-align: center;
+  }
+
+  footer {
+    margin: 92px 0px;
+  }
+
+  .rob-feature {
+    padding-top: 186px;
+    padding-bottom: 84px;
+  }
+
+  .rob-sec02 {
+    margin-top: 92px;
   }
 
 
